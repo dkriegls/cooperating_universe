@@ -10,36 +10,32 @@
   </head>
   <body>
     <div class="hero-full-screen">
-
       <div class="top-content-section">
         <div class="top-bar">
           <div class="top-bar-left">
             <ul class="menu">
-              <li><a href="#">Authors</a></li>
+              <li><a href="#about">Authors</a></li>
             </ul>
           </div>
         </div>
       </div>
-
       <div class="middle-content-section">
         <h1>The Cooperating Universe</h1>
-        <a href="#intro"><button class="button large">Introduction</button></a>
+        <a href="#int"><button class="button large">Introduction</button></a>
         <a href="#ch1"><button class="button large">Chapter 1</button></a>
         <a href="#ch2"><button class="button large">Chapter 2</button></a>
         <a href="#ch3"><button class="button large">Chapter 3</button></a>
       </div>
-
       <div class="bottom-content-section" data-magellan data-threshold="0">
         <a href="#main-content-section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/></svg></a>
       </div>
     </div>
-
     <div id="main-content-section" data-magellan-target="main-content-section">   
       <article class="grid-container">
         <div class="grid-x align-center">
           <div class="cell medium-8">
             <div class="blog-post">
-              <h3 id="intro">Introduction</h3>
+              <h3 id="int">Introduction: <small class="black">How Nature Creates Complexity</small></h3>
               <div class="callout">
                 <p>
                   Our universe is not the cold and uncaring place once described by Newtonian physics. That was a story about a perfectly tuned machine. In Newton’s universe everyone’s fate was already determined and little changed as a result of your existence. Human life, indeed, was utterly independent from the gears that moved much of this clock-like universe. Though the equations and experiments that gave birth to this narrative have undergone a fundamental change, this is the story we still often hear today when scientists describe the nature of our universe. One of the last big paradigm shifts happened when the equations of quantum physics and chaos theory provided a glimpse into a world vastly different from the familiar one we experience. That change was so great it altered the very questions we ask. We learned that the universe around us was intricately more connected than we could have previously imagined, even across vast distances of space. 
@@ -195,7 +191,36 @@
         </div>
       </article>
     </div> 
-
+    <footer class="responsive-blog-footer" id="about">
+      <div class="row">
+        <div class="medium-8 columns small-order-2 medium-order-1 about-container">
+          <div class="row">
+            <div class="hide-for-small-only medium-4 columns about-section">
+              <img src="media/werner.png">
+            </div>
+            <div class="medium-8 columns about-section">
+              <h4>About Werner Krieglstein</h4>
+              <p>Werner is a Fulbright scholar and University of Chicago fellow. He holds a doctorate from the University of Chicago and taught at the University of Helsinki, Finland.</p>
+              <a href="https://en.wikipedia.org/wiki/Werner_Krieglstein">Read More at Werner's Wikipedia Page</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="hide-for-small-only medium-4 columns about-section">
+              <img src="media/daniel.jpg">
+            </div>
+            <div class="medium-8 columns about-section">
+              <h4>About Daniel Krieglstein</h4>
+              <p>Daniel is Adj. Assistant Professor of Behavioral Design at the Illinois Institute of Technology. His research and applied work focuses on the intersection of technology and psychology. Discovering how technology can positively change human behaviors.</p>
+              <a href="https://appliedtech.iit.edu/people/daniel-krieglstein">Read More at Daniel's Faculty Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row columns flex-container align-justify">
+         <p> All rights reserved</p>
+         <address>Site maintained by dkriegls@gmail.com</address>
+      </div>
+    </footer>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
