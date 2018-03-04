@@ -6,6 +6,10 @@ p {
   color: rgb(10,10,10);
 }
 
+.white {
+  color: rgb(255,255,255);
+}
+
 .hero-full-screen {
   height: 100vh;
   display: -webkit-flex;
